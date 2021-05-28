@@ -1,0 +1,9 @@
+image: cypress/included:4.1.0
+
+stages:
+  - test
+test:
+  stage: test
+  script:
+    - npm install
+    - npm run test
